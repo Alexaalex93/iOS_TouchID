@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096A8D501E8B98A600A8400D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096A8D4F1E8B98A600A8400D /* LocalAuthentication.framework */; };
 		F41206F01DBF2EC300CF8039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41206EF1DBF2EC300CF8039 /* AppDelegate.swift */; };
 		F41206F51DBF2EC300CF8039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41206F31DBF2EC300CF8039 /* Main.storyboard */; };
 		F41206F71DBF2EC300CF8039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41206F61DBF2EC300CF8039 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096A8D4F1E8B98A600A8400D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		F41206EC1DBF2EC300CF8039 /* TouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41206EF1DBF2EC300CF8039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F41206F41DBF2EC300CF8039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096A8D501E8B98A600A8400D /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		096A8D4E1E8B98A600A8400D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096A8D4F1E8B98A600A8400D /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F41206E31DBF2EC300CF8039 = {
 			isa = PBXGroup;
 			children = (
 				F41206EE1DBF2EC300CF8039 /* TouchID */,
 				F41206ED1DBF2EC300CF8039 /* Products */,
+				096A8D4E1E8B98A600A8400D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
